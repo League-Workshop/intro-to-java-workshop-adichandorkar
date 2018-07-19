@@ -16,25 +16,31 @@ import org.jointheleague.graphical.robot.Robot;
 public class RobotTreasureHunt implements KeyEventDispatcher{
 
 	// 1. Create a new mini robot (type "mini" inside the parentheses)
-	
+	 Robot blah= new Robot("batman"); 
 	private void goUp() throws InterruptedException {
 		// 2. Make the robot move up the screen (use setAngle(angle) and microMove(distance))
+		blah.setAngle(0);
+		blah.microMove(5);
 		
 	}
 
 	private void goDown() throws InterruptedException{
 		// 3. make the robot move down the screen (use setAngle(angle) and microMove(distance))
-		
+		blah.setAngle(180);
+		blah.microMove(5);
 	}
 
 	private void turnLeft() throws InterruptedException{
 		// 4. Make the robot turn to the left (use setAngle(angle) and microMove(distance))
+		blah.setAngle(-90);
+		blah.microMove(5);
 
 	}
 
 	private void turnRight() throws InterruptedException{
 		// 5. make the robot turn to the right (use setAngle(angle) and microMove(distance))
-		
+		blah.setAngle(90);
+		blah.microMove(5);
 	}
 
 	private void spaceBarWasPressed() {
