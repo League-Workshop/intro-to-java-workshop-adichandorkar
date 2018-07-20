@@ -46,8 +46,8 @@ public class RobotTreasureHunt implements KeyEventDispatcher{
 	private void spaceBarWasPressed() {
 
 		// 5. Change ROBOTNAME below to match the name of the robot you created in step 1.  THEN, remove the slashes at the beginning of the next two lines
-		//int robotXLocation = ROBOTNAME.getX();
-		//int robotYLocation = ROBOTNAME.getY();
+		int robotXLocation = blah.getX();
+		int robotYLocation = blah.getY();
 		
 		// 6. Print the robotXLocation and robotYLocation variables to the console 
 		
